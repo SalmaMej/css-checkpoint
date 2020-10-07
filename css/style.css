@@ -1,0 +1,112 @@
+body {
+  font-family: roboto;
+  margin: 0px;
+  text-align: center;
+  background-image: url(/res/andrew-barrowman-5CYjHn5Cc0g-unsplash.png);
+  background-size: cover;
+}
+ul li {
+  display: inline;
+}
+ul {
+  margin-right: 10px;
+}
+.topnav {
+  background-color: rgb(44, 155, 163);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.topnav ul {
+  float: right;
+}
+button {
+  padding: 10px;
+  border: solid 1px;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+}
+a:link {
+  color: rgb(24, 98, 104);
+}
+a:visited {
+  color: rgb(24, 98, 104);
+}
+button a:hover {
+  color: rgb(153, 111, 100);
+  font-style: italic;
+}
+.Titles {
+  color: rgb(44, 155, 163);
+  font-family: monospace;
+  font-size: 30px;
+}
+#toptitle {
+  margin-top: 100px;
+}
+h2 {
+  font-size: 20px;
+  margin: 50px;
+}
+h3 {
+  font-family: monospace;
+  padding: 20px;
+  margin: 3px;
+}
+h3:hover {
+  color: #ffd97a;
+  background-color: rgba(44, 155, 163, 0.527);
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.image {
+  border: 1px solid;
+  border-radius: 10px;
+}
+.center {
+  border-radius: 10px;
+}
+ol {
+  padding: 0 700px 0 700px;
+  text-align: left;
+}
+#format {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#format input,
+textarea {
+  margin: 5px;
+  border-radius: 5px;
+}
+#submit {
+  margin-bottom: 10px;
+}
+
+a > p {
+  text-align: right;
+  margin: 20px;
+  padding: 5px;
+  text-decoration: underline;
+  position: fixed;
+  background-color: #ffd97a;
+  border-radius: 5px;
+  bottom: 0;
+  right: 0;
+}
+hr {
+  width: 900px;
+  height: 1px;
+  background-color: rgb(44, 155, 163);
+}
+footer {
+  background-color: rgb(44, 155, 163);
+  overflow: hidden;
+  padding: 0px;
+}
